@@ -1,0 +1,24 @@
+*.hbs
+*.scss
+
+# unconventional js
+/blueprints/*/files/
+vendor/*
+translations/*
+shell/*
+muster/*
+public/*
+
+# compiled output
+/dist/
+/tmp/
+
+# dependencies
+/bower_components/
+
+# misc
+/coverage/
+
+# ember-try
+/.node_modules.ember-try/
+!.eslintrc.js
