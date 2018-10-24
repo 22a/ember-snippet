@@ -38,7 +38,6 @@ module.exports = {
     const snippetPaths = this.snippetPaths().filter(path => {
       return fs.existsSync(path);
     });
-    console.log(snippetPaths);
     const snippetsFromSnippetsPaths = mergeTrees(snippetPaths);
 
     const snippetOptions = {
