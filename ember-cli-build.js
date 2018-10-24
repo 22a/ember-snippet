@@ -6,6 +6,11 @@ module.exports = function(defaults) {
   let app = new EmberAddon(defaults, {
     // Add options here
     includeFileExtensionInSnippetNames: false,
+    'ember-prism': {
+      'theme': 'twilight',
+      'components': ['scss', 'javascript'],
+      'plugins': ['line-highlight']
+    }
   });
 
   /*
